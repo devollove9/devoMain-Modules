@@ -1,0 +1,25 @@
+{
+  "name": "devomain-middlewares",
+  "version": "1.0.0",
+  "description": "middlewares for devoMain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel . --presets babel-preset-env --out-dir . --ignore node_modules",
+    "prepublish": "npm run build",
+    "release": "npm publish --tag next"
+  },
+  "keywords": [
+    "nodejs",
+    "es6"
+  ],
+  "author": "devo li",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "devomain-constants": "^1.0.0",
+    "devomain-libs": "^1.0.0"
+  }
+}

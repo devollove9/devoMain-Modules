@@ -1,0 +1,30 @@
+{
+  "name": "devomain-libs",
+  "version": "1.0.0",
+  "description": "library for devoMain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel . --presets babel-preset-env --out-dir . --ignore node_modules",
+    "prepublish": "npm run build",
+    "release": "npm publish --tag next"
+  },
+  "keywords": [
+    "nodejs",
+    "es6"
+  ],
+  "author": "devo li",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "joi": "^13.0.1",
+    "koa-ratelimit": "^4.0.0",
+    "microtime": "^2.1.6",
+    "ms": "^2.0.0",
+    "thenify": "^3.3.0",
+    "underscore": "^1.8.3"
+  }
+}

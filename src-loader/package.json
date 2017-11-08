@@ -1,0 +1,17 @@
+{
+  "name": "src-loader",
+  "version": "1.0.0",
+  "description": "load file based on src loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "es6"
+  ],
+  "author": "devo li",
+  "license": "MIT",
+  "devDependencies": {
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "408":{
+    "errorCode":408,
+    "errorMessage":"Your request has timed out."
+  },
+  "422":{
+    "errorCode":422,
+    "errorMessage":"Request is not acceptable."
+  },
+  "500":{
+    "errorCode":500,
+    "errorMessage":"Internal server error."
+  }
+}

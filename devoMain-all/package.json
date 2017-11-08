@@ -1,0 +1,25 @@
+{
+  "name": "devomain-all",
+  "version": "1.0.0",
+  "description": "All resources for impact link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "iaLl": "npm install --save devomain-constants@next devomain-libs@next devomain-services@next devomain-middlewares@next src-loader@next",
+    "prerelease": "npm run iaLl",
+    "release": "npm publish --tag next"
+  },
+  "keywords": [
+    "nodejs",
+    "es6"
+  ],
+  "author": "devo li",
+  "license": "ISC",
+  "dependencies": {
+    "devomain-constants": "^1.0.0",
+    "devomain-libs": "^1.0.0",
+    "devomain-middlewares": "^1.0.0",
+    "devomain-services": "^1.0.0",
+    "src-loader": "^1.0.2"
+  }
+}
